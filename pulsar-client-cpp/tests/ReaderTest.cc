@@ -537,6 +537,7 @@ TEST(ReaderTest, testIsConnected) {
 }
 
 TEST(ReaderTest, testHasMessageAvailableWhenCreated) {
+    // test Cpp CI
     const std::string topic = "testHasMessageAvailableWhenCreated-" + std::to_string(time(nullptr));
     Client client(serviceUrl);
 
